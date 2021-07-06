@@ -1,0 +1,32 @@
+{
+  "name": "templatemocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config .mocharc.yml",
+    "qa": "mocha specs/**/*.spec.js -timeout 50000 --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqamba/templateMocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqamba/tempnplateMocha/issues"
+  },
+  "homepage": "https://github.com/iqamba/templateMocha#readme",
+  "dependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.16",
+    "chai": "^4.3.4",
+    "faker": "^5.5.3",
+    "mocha": "*",
+    "playwright": "^1.10.0"
+  }
+}
